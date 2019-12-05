@@ -1,0 +1,49 @@
+ /*---- Main Sytles----- */
+
+/* 
+
+colors used for Portfolio
+   CASHEMERE #cbc5c1
+   FRENCH BLUE #A2AAB0
+   WHITE WASH #EBECED
+   DENIM #4c586F
+   GUNMETAL #3E3E3b
+*/
+
+
+ body {
+   display:flex;
+   flex-direction: column;
+   background-color: #ebeced;
+ }
+
+/* HEADER */
+  header{
+     justify-content: center;
+  } 
+
+   .main-header {
+      display: grid;
+      grid-template-columns: 3 repat(3, 1fr);
+      grid-template-areas: none
+      "brand . nav"
+      ;
+      width: 100vw;
+   }
+
+   .brand{
+      grid-area: brand;
+   }
+
+   .main-nav {
+      grid-area: nav;
+      display: flex;
+      justify-content: space-around;
+
+   }
+
+
+ footer {
+    font-size: .5em;
+ }
+
