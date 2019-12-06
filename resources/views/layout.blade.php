@@ -31,12 +31,12 @@
             <div class="main-header">
                 <div class='brand'> 
 
-                    <h3>Joshua <img src="" alt="(logo)"> Lucas</h3>
+                    <img src="img/name_logo1.png" alt="Logo" width='200px'>
 
                 </div>  
                 
-                <div class='main-nav'>
-                    <ul>
+                <div class='main-nav' >
+                    <ul class='nav'>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Testimonials</a></li>
                         <li><a href="#">Projects</a></li>

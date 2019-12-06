@@ -17,31 +17,53 @@ colors used for Portfolio
    background-color: #ebeced;
  }
 
+ul{
+   list-style: none;
+} 
+
+a{
+   text-decoration: none;
+
+}
+
 /* HEADER */
   header{
      justify-content: center;
+     text-align: center;
   } 
 
    .main-header {
-      display: grid;
-      grid-template-columns: 3 repat(3, 1fr);
-      grid-template-areas: none
-      "brand . nav"
-      ;
+      display:flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
       width: 100vw;
    }
 
    .brand{
-      grid-area: brand;
+      align-items: baseline;
+      margin: auto;
    }
 
-   .main-nav {
-      grid-area: nav;
-      display: flex;
-      justify-content: space-around;
 
+   .main-nav{
+      flex-grow: 1;
+      margin: auto;
    }
 
+      .nav {
+
+         display: flex;
+         justify-content: flex-end;
+
+
+      }
+
+      li{
+         padding-left: 3em;
+         padding-right: 3em;
+      }
+
+   
 
  footer {
     font-size: .5em;
