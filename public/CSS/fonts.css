@@ -1,10 +1,50 @@
-/* <h1> Font Didot Regular*/
+ /* ---- FONT FAMILIES ---- */
+ 
+ /* <h1> Font Didot Regular*/
+    @font-face {
+        font-family: "didot-regular";
+        src: url("/Fonts/didot_regular.ttc") format('truetype');
+    } 
 
+    /* <h2>/<h3> Font Bodoni bold*/
 
-/* <h2>/<h3> Font Bodoni bold*/
+    @font-face {
+        font-family: "bodoni-bold";
+        src: url("/public/Fonts/Bodoni_Bold.ttf") format('truetype');
 
+    } 
 
-/* <p> Font Bondoni regular */
+    /* <p> Font Bondoni regular */
 
+    @font-face {
+        font-family: "bodoni-regular";
+        src: url("/Fonts/Bodoni_regular.ttf") format('truetype');
+    } 
 
-/* Footer font Didot italic*/
+    /* Footer font Didot italic*/
+
+    @font-face {
+        font-family: "didot-italic";
+        src: url("/Fonts/didot_regular.ttf") format('truetype');
+    } 
+
+    /* ---- FONT STYLING ---- */
+
+    h1{
+        font: 4em "didot-regular";
+        font-weight: bold;
+    }
+
+    h2,h3{
+
+        font: 2em "bodoni-bold";
+    }
+
+    p,a,li {
+        font: 1em "bodoni-regular";
+    }
+
+    footer{
+       font: .75em "didot-italic";
+       font-style: italic;
+    }
