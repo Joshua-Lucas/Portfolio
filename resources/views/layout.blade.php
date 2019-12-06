@@ -31,7 +31,7 @@
             <div class="main-header">
                 <div class='brand'> 
 
-                    <img src="img/name_logo1.png" alt="Logo" width='200px'>
+                    <a href="/"><img src="img/name_logo1.png" alt="Logo" width='200px'></a>
 
                 </div>  
                 
