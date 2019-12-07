@@ -49,11 +49,11 @@
         <div>
          @yield('content')
         </div>
-        <footer>
+        <!-- <footer>
         
             <p>created by Joshua M. Lucas all rigths reserved. All parts of this page can not be reporduced for any reason unless granted permission from owner.</p> 
 
-        </footer>
+        </footer> -->
 
     </body>
 </html>

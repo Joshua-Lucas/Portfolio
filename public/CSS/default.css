@@ -11,10 +11,12 @@ colors used for Portfolio
 */
 
 
+
+
  body {
    display:flex;
    flex-direction: column;
-   background-color: #ebeced;
+   background-color: #f8eee7;
  }
 
 ul{
@@ -72,5 +74,25 @@ a{
          padding-right: 3em;
       }
 
+      /* ---- Welcome Page ---- */
+      
+      .launch-page{
+         display: flex;
+         justify-content: space-around;
+         flex-direction: row-reverse;
+         margin-top: 1em;
+
+      }
+      
+      .lp-text{
+         align-self: center;
+      }
+
+      
+      .jlu1{
+         height: 80vh;
+         width: 30vw;
+         box-shadow: 20px 15px #4c586F;
+      }
 
 
