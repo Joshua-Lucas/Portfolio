@@ -3,7 +3,7 @@
  /* <h1> Font Didot Regular*/
     @font-face {
         font-family: "didot-regular";
-        src: url("/public/Fonts/didot_regular.ttf") format('truetype');
+        src: url("/Fonts/didot_regular.ttf") format('truetype');
     } 
 
     /* <h2>/<h3> Font Bodoni bold*/
