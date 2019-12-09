@@ -74,25 +74,43 @@ a{
          padding-right: 3em;
       }
 
-      /* ---- Welcome Page ---- */
+/* ---- Welcome Page ---- */
       
-      .launch-page{
-         display: flex;
-         justify-content: space-around;
-         flex-direction: row-reverse;
-         margin-top: 1em;
+   .launch-page{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row-reverse;
+      margin-top: 1em;
+      width: 100vw;
+   }
+   
+
+   .lp-text{
+      align-self: center;
+      
+   }
+
+      .lp_title{
+         font-size: 7em;
+         margin-bottom: 0%;
 
       }
-      
-      .lp-text{
-         align-self: center;
+
+      .lp_h3{
+         margin:0;
+         font-size:2em;
       }
 
-      
-      .jlu1{
-         height: 80vh;
-         width: 30vw;
-         box-shadow: 20px 15px #4c586F;
+      .lp_p {
+         margin-top: 0;
       }
+
+
+   
+   .jlu1{
+      height: 80vh;
+      width: 30vw;
+      box-shadow: 20px 15px #4c586F;
+   }
 
 
