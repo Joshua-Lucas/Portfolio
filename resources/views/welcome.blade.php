@@ -6,9 +6,9 @@
     <div Class='launch-page'>
 
         <div class='lp-text'>
-            <h1>Hello, My Name Is</h1>
-            <h2 class="lp_h2">Joshua</h2>
-            <p calss="lp_p"> Front-end Developer</p>
+            <h1 class='lp_title'>Joshua Lucas</h1>
+            <!-- <h3 class="lp_h3"> My name is Joshua</h3>-->
+            <p calss="lp_p"> Front-end Developer</p> 
         </div>            
             
         <div class='lp-img'> 
