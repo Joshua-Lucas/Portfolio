@@ -39,7 +39,7 @@ a{
   header{
      justify-content: center;
      text-align: center;
-    color: #4c586F;
+      color: #4c586F;
   } 
 
    .main-header {
@@ -87,12 +87,15 @@ a{
 
    .lp-text{
       align-self: center;
-      
+      width: 50vw;
    }
 
       .lp_title{
+         color: #3E3E3b;
          font-size: 7em;
-         margin-bottom: 0%;
+         margin: 0;
+         letter-spacing: -.1em;
+         line-height: .75em;
 
       }
 
@@ -102,15 +105,23 @@ a{
       }
 
       .lp_p {
+         color: #4c586F;
          margin-top: 0;
+         font-size: 1.3em;
+         font-style: italic;
       }
 
+   .lp_img{
+      width: 50vw;
+   }
 
    
-   .jlu1{
-      height: 80vh;
-      width: 30vw;
-      box-shadow: 20px 15px #4c586F;
-   }
+      .jlu1{
+         height: 80vh;
+         width: 30vw;
+         margin: auto;
+         display: block;
+         box-shadow: 20px 15px #4c586F;
+      }
 
 
