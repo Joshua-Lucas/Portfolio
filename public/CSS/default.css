@@ -36,43 +36,60 @@ a{
 
 
 /* HEADER */
-  header{
-     justify-content: center;
-     text-align: center;
+  
+
+
+
+   header{
+      display: flex;
+      justify-content: center;
+      text-align: center;
       color: #4c586F;
   } 
 
    .main-header {
       display:flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      /* flex-wrap: wrap; */
       margin: auto;
       width: 100vw;
    }
 
    .brand{
-      align-items: baseline;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* align-items: baseline; */
       margin: auto;
    }
 
 
    .main-nav{
-      flex-grow: 1;
-      margin: auto;
+      display: flex;
+      flex-direction: column;
+      flex: 1 100%;
+
    }
 
       .nav {
 
          display: flex;
-         justify-content: flex-end;
-
+         flex-direction: column;
+         justify-content: space-evenly;
+         padding: 0;
 
       }
 
-      li{
-         padding-left: 3em;
-         padding-right: 3em;
+      .flex_li {
+         flex:1 100%;
+         width:80%;
+         align-self: center;
+         margin-bottom: 1.5em;
+
       }
+
+
 
 /* ---- Welcome Page ---- */
       
