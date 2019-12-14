@@ -37,10 +37,10 @@
                 
                 <div class='main-nav' >
                     <ul class='nav'>
-                        <li><a href="#">Bio</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contact</a></li>    
+                        <li class='flex_li'><a href="#">Bio</a></li>
+                        <li class='flex_li'><a href="#">Testimonials</a></li>
+                        <li class='flex_li'><a href="#">Projects</a></li>
+                        <a class='flex_li' href="#"><li >Contact</li></a>    
                     </ul>
                 </div> 
             </div>
