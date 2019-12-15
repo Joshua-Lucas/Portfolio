@@ -87,6 +87,7 @@ a{
          width:80%;
          align-self: center;
          margin-bottom: 1.5em;
+         
 
       }
 
@@ -142,4 +143,37 @@ a{
          box-shadow: 20px 15px #4c586F;
       }
 
+/* ==========================
+      Media Quieries 
+=============================*/
 
+@media (min-width: 769px)
+{
+
+   .main-nav{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+   }
+
+      .nav {
+         flex-direction: row;
+         justify-content: center;
+         flex: 1 80%;
+         margin-bottom: 1em;
+
+      }
+
+      .flex_li {
+         flex:1 100%;
+         width:80%;
+         align-self: center;
+         margin: 0 2em;
+      }
+
+
+
+
+
+}
