@@ -2,10 +2,12 @@
 <html >
     <head>
         <title>Joshua Lucas</title>
+        <link rel="icon" href="/img/Logo1.png" >
 
         <!-- CSS Style Sheets -->
         <link rel="stylesheet" href="CSS/default.css"/>
         <link rel="stylesheet" href="CSS/fonts.css"/>
+
 
 
     </head>
@@ -31,15 +33,15 @@
             <div class="main-header">
                 <div class='brand'> 
 
-                    <a href="/"><img src="img/name_logo1.png" alt="Logo" width='200px'></a>
+                    <a href="/"><img src="img/name_logo1.png" alt="Logo" width='300px'></a>
 
                 </div>  
                 
                 <div class='main-nav' >
                     <ul class='nav'>
-                        <li class='flex_li'><a href="#">Bio</a></li>
-                        <li class='flex_li'><a href="#">Testimonials</a></li>
-                        <li class='flex_li'><a href="#">Projects</a></li>
+                        <a class='flex_li' href="#"><li >Bio</li></a>    
+                        <a class='flex_li' href="#"><li >Testimonal</li></a>    
+                        <a class='flex_li' href="#"><li >Projects</li></a>
                         <a class='flex_li' href="#"><li >Contact</li></a>    
                     </ul>
                 </div> 
